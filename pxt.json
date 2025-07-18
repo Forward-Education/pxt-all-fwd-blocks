@@ -1,0 +1,37 @@
+{
+    "name": "all-fwd-blocks",
+    "version": "1.1.0",
+    "description": "Forward Education's full library of blocks. Use this extension to combine products and unlock new possibilities",
+    "license": "MIT",
+    "dependencies": {
+        "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.8",
+        "fwd-energy": "github:Forward-Education/pxt-fwd-modules/fwd-energy#v1.0.8",
+        "fwd-float": "github:Forward-Education/pxt-fwd-modules/fwd-float#v1.0.8",
+        "fwd-led-ring": "github:Forward-Education/pxt-fwd-modules/fwd-led-ring#v1.0.8",
+        "fwd-lights": "github:Forward-Education/pxt-fwd-modules/fwd-lights#v1.0.8",
+        "fwd-line": "github:Forward-Education/pxt-fwd-modules/fwd-line#v1.0.8",
+        "fwd-moisture": "github:Forward-Education/pxt-fwd-modules/fwd-moisture#v1.0.8",
+        "fwd-ph": "github:Forward-Education/pxt-fwd-modules/fwd-ph#v1.0.8",
+        "fwd-pump": "github:Forward-Education/pxt-fwd-modules/fwd-pump#v1.0.8",
+        "fwd-servo-continuous": "github:Forward-Education/pxt-fwd-modules/fwd-servo-continuous#v1.0.8",
+        "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.0.8",
+        "fwd-solder-3b3l": "github:Forward-Education/pxt-fwd-modules/fwd-solder-3b3l#v1.0.8",
+        "fwd-solar": "github:Forward-Education/pxt-fwd-modules/fwd-solar#v1.0.8",
+        "fwd-sonar": "github:Forward-Education/pxt-fwd-modules/fwd-sonar#v1.0.8",
+        "fwd-temperature": "github:Forward-Education/pxt-fwd-modules/fwd-temperature#v1.0.8",
+        "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.0.8"
+    },
+    "files": [],
+    "testFiles": [
+        "tests/test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "8.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
