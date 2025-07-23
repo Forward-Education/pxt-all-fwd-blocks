@@ -1,7 +1,7 @@
 {
     "name": "all-fwd-blocks",
     "version": "1.1.2",
-    "description": "Forward Education's full library of blocks. Use this extension to combine products and unlock new possibilities",
+    "description": "Forward Education's full library of blocks, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
         "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.8",
@@ -21,7 +21,9 @@
         "fwd-temperature": "github:Forward-Education/pxt-fwd-modules/fwd-temperature#v1.0.8",
         "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.0.8"
     },
-    "files": [],
+    "files": [
+        "README.md"
+    ],
     "testFiles": [
         "tests/test.ts"
     ],
