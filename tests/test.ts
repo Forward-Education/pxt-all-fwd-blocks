@@ -44,8 +44,8 @@ if (fwdSensors.ph1.isPastThreshold(0, fwdEnums.OverUnder.Over)) {
 if (fwdSensors.solar1.isPastThreshold(5, fwdEnums.OverUnder.Over)) {
     basic.showNumber(fwdSensors.solar1.lightLevel())
 }
-if (fwdSensors.sonar1.fwdDistancePastThreshold(0, fwdEnums.OverUnder.Over)) {
-    basic.showNumber(fwdSensors.sonar1.fwdDistance())
+if (fwdSensors.sonar1.isPastThreshold(0, fwdEnums.OverUnder.Over)) {
+    basic.showNumber(fwdSensors.sonar1.distance())
 }
 if (fwdSensors.temperature1.isPastThreshold(0, fwdEnums.OverUnder.Over)) {
     basic.showNumber(fwdSensors.temperature1.temperature())
