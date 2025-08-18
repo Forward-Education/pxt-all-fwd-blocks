@@ -4,4 +4,3 @@ if (fwdLights.lights1.isOn()) {
 if (fwdLights.GREEN.isOn()) {
     fwdLights.GREEN.setOnOff(false)
 }
-test
