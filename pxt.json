@@ -25,7 +25,7 @@
         "README.md"
     ],
     "testFiles": [
-        "tests/test.ts"
+        "tests/test1.ts"
     ],
     "public": true,
     "targetVersions": {

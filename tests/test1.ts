@@ -78,10 +78,3 @@ fwdLights.ledRing1.setBrightness(10)
 fwdLights.ledRing1.rotate(1)
 fwdLights.ledRing1.shift(1)
 basic.showNumber(fwdLights.ledRing1.brightness())
-if (fwdLights.lights1.isOn()) {
-    fwdLights.lights1.setBrightness(0)
-}
-if (fwdLights.GREEN.isOn()) {
-    fwdLights.GREEN.setOnOff(false)
-}
-basic.forever(function () {})
