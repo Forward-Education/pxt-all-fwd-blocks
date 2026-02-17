@@ -4,10 +4,10 @@ The full library of blocks supporting Forward Education's Jacdac modules. Combin
 
 This extension supports the following products:
 
--   [Climate Action Kit](https://forwardedu.com/pages/climate-action-kit)
--   [Smart Solar Energy Kit](https://forwardedu.com/products/smart-solar-energy-kit)
--   [Smart Soldering Kit](https://forwardedu.com/products/smart-learn-to-solder-kit)
--   [Smart Hydroponics Kit](https://forwardedu.com/products/smart-hydroponics-kit)
+- [Climate Action Kit](https://forwardedu.com/pages/climate-action-kit)
+- [Smart Solar Energy Kit](https://forwardedu.com/products/smart-solar-energy-kit)
+- [Smart Soldering Kit](https://forwardedu.com/products/smart-learn-to-solder-kit)
+- [Smart Hydroponics Kit](https://forwardedu.com/products/smart-hydroponics-kit)
 
 ### ~ reminder
 
@@ -37,9 +37,9 @@ datalogger.setColumnTitles(
 )
 basic.showNumber(fwdSensors.current1.current())
 basic.showNumber(fwdSensors.voltage1.voltage())
-basic.showNumber(fwdSensors.sonar1.fwdDistance())
+basic.showNumber(fwdSensors.sonar1.distance())
 loops.everyInterval(1000, function () {
-    datalogger.log(datalogger.createCV("sonar", fwdSensors.sonar1.fwdDistance()))
+    datalogger.log(datalogger.createCV("sonar", fwdSensors.sonar1.distance()))
     datalogger.log(datalogger.createCV("current", fwdSensors.current1.current()))
     datalogger.log(datalogger.createCV("voltage", fwdSensors.voltage1.voltage()))
 })
@@ -57,7 +57,7 @@ basic.showNumber(fwdSensors.voltage1.voltage())
 
 ## Supported Targets
 
--   for PXT/microbit
+- for PXT/microbit
 
 ## License
 

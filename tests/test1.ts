@@ -2,7 +2,7 @@ fwdButtons.dial1.onRotated(
     fwdEnums.ClockwiseCounterclockwise.Clockwise,
     function () {
         basic.showNumber(fwdButtons.dial1.position())
-    }
+    },
 )
 fwdSensors.line1.onLineSensorStateChange(function () {
     if (fwdSensors.line1.isLineSensorState(fwdEnums.OnOff.Off)) {
@@ -54,24 +54,13 @@ if (fwdMotors.pump.isOn()) {
     fwdMotors.pump.timedRun(500)
     fwdMotors.pump.setOn(false)
 }
-if (fwdMotors.conIsEnabled(fwdBase.leftServo)) {
-    fwdMotors.setSpeed(fwdBase.leftServo, 0)
-    basic.showNumber(fwdMotors.getSpeed(fwdBase.leftServo))
-    fwdMotors.conSetEnabled(fwdBase.leftServo, false)
-}
+fwdMotors.setSpeed(fwdBase.leftServo, 0)
+basic.showNumber(fwdMotors.getSpeed(fwdBase.leftServo))
 fwdMotors.setupDriving(fwdBase.leftServo, fwdBase.leftServo)
-fwdMotors.drive(fwdEnums.ForwardReverse.Forward, 50)
-fwdMotors.stop()
-fwdMotors.turn(0)
-if (fwdMotors.posIsEnabled(fwdBase.leftServo)) {
-    fwdMotors.setAngle(
-        fwdBase.leftServo,
-        fwdMotors.positionPresets(fwdMotors.ServoClockPositions.Position0)
-    )
-    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
-    fwdMotors.posSetEnabled(fwdBase.leftServo, false)
-    basic.showNumber(fwdMotors.getAngle(fwdBase.leftServo))
-}
+fwdMotors.drive(50, 50, 1000)
+fwdMotors.setAngle(fwdBase.leftServo, 90)
+fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
+basic.showNumber(fwdMotors.getAngle(fwdBase.leftServo))
 fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel1, 0xff0000)
 fwdLights.ledRing1.setAllPixelsColor(0xff0000)
 fwdLights.ledRing1.setBrightness(10)
