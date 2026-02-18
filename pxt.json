@@ -22,7 +22,8 @@
         "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.1.0"
     },
     "files": [
-        "README.md"
+        "README.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "tests/test1.ts"
