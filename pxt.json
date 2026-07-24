@@ -1,6 +1,6 @@
 {
     "name": "all-fwd-blocks",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "Forward Education's full library of blocks, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
