@@ -4,8 +4,8 @@
     "description": "Forward Education's full library of blocks, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
-        "fwd-ai-vision-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-vision-module#v1.1.6",
-        "fwd-ai-voice-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice-module#v1.1.6",
+        "fwd-ai-vision-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-vision#v1.1.6",
+        "fwd-ai-voice-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice#v1.1.6",
         "fwd-color": "github:Forward-Education/pxt-fwd-modules/fwd-color#v1.1.6",
         "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.1.6",
         "fwd-ec": "github:Forward-Education/pxt-fwd-modules/fwd-ec#v1.1.6",
