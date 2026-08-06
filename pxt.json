@@ -4,8 +4,11 @@
     "description": "Forward Education's full library of blocks, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
+        "fwd-ai-vision-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-vision-module#v1.1.6",
+        "fwd-ai-voice-module": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice-module#v1.1.6",
         "fwd-color": "github:Forward-Education/pxt-fwd-modules/fwd-color#v1.1.6",
         "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.1.6",
+        "fwd-ec": "github:Forward-Education/pxt-fwd-modules/fwd-ec#v1.1.6",
         "fwd-energy": "github:Forward-Education/pxt-fwd-modules/fwd-energy#v1.1.6",
         "fwd-float": "github:Forward-Education/pxt-fwd-modules/fwd-float#v1.1.6",
         "fwd-lcd": "github:Forward-Education/pxt-fwd-modules/fwd-lcd#v1.1.6",
@@ -18,8 +21,8 @@
         "fwd-pump": "github:Forward-Education/pxt-fwd-modules/fwd-pump#v1.1.6",
         "fwd-servo-continuous": "github:Forward-Education/pxt-fwd-modules/fwd-servo-continuous#v1.1.6",
         "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.1.6",
-        "fwd-solder-3b3l": "github:Forward-Education/pxt-fwd-modules/fwd-solder-3b3l#v1.1.6",
         "fwd-solar": "github:Forward-Education/pxt-fwd-modules/fwd-solar#v1.1.6",
+        "fwd-solder-3b3l": "github:Forward-Education/pxt-fwd-modules/fwd-solder-3b3l#v1.1.6",
         "fwd-sonar": "github:Forward-Education/pxt-fwd-modules/fwd-sonar#v1.1.6",
         "fwd-temperature": "github:Forward-Education/pxt-fwd-modules/fwd-temperature#v1.1.6",
         "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.1.6"
